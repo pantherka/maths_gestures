@@ -27,7 +27,7 @@
         <Boolean>true</Boolean>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>80975</Long>
+        <Long>181345</Long>
     </pref>
     <pref key="LayoutManager.MediaAreaHeight">
         <Int>255</Int>
@@ -99,7 +99,7 @@
         <Float>200.0</Float>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>80900</Long>
+        <Long>180860</Long>
     </pref>
     <pref key="DetachedEditor.Bounds">
         <Object class="java.awt.Rectangle">618,282,300,300</Object>
@@ -113,10 +113,10 @@
         <Boolean>true</Boolean>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>77697</Long>
+        <Long>177862</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>81082</Long>
+        <Long>181602</Long>
     </pref>
     <prefGroup key="TierColors">
         <pref key="default">
