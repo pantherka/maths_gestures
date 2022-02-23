@@ -2,7 +2,7 @@
 <preferences version="1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1440,784</Object>
+        <Object class="java.awt.Dimension">1440,788</Object>
     </pref>
     <prefList key="HiddenPlayers"/>
     <pref key="TimeLineViewer.TimeRulerVisible">
@@ -27,10 +27,10 @@
         <Boolean>true</Boolean>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>181345</Long>
+        <Long>293415</Long>
     </pref>
     <pref key="LayoutManager.MediaAreaHeight">
-        <Int>255</Int>
+        <Int>272</Int>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
         <Float>200.0</Float>
@@ -99,7 +99,7 @@
         <Float>200.0</Float>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>180860</Long>
+        <Long>293355</Long>
     </pref>
     <pref key="DetachedEditor.Bounds">
         <Object class="java.awt.Rectangle">618,282,300,300</Object>
@@ -113,17 +113,17 @@
         <Boolean>true</Boolean>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>177862</Long>
+        <Long>246475</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>181602</Long>
+        <Long>248758</Long>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="default">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
         <pref key="Комм - юн">
             <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+        <pref key="default">
+            <Object class="java.awt.Color">90,0,160</Object>
         </pref>
         <pref key="Комментарии и вопросы">
             <Object class="java.awt.Color">90,90,0</Object>
