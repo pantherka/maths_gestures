@@ -2,7 +2,7 @@
 <preferences version="1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1440,788</Object>
+        <Object class="java.awt.Dimension">1440,900</Object>
     </pref>
     <prefList key="HiddenPlayers"/>
     <pref key="TimeLineViewer.TimeRulerVisible">
@@ -27,14 +27,27 @@
         <Boolean>true</Boolean>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>603526</Long>
+        <Long>218720</Long>
     </pref>
     <pref key="LayoutManager.MediaAreaHeight">
-        <Int>269</Int>
+        <Int>274</Int>
+    </pref>
+    <pref key="ExportTabDialog.SelectTiersMode">
+        <String>Tier</String>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
         <Float>200.0</Float>
     </pref>
+    <prefList key="ExportTabDialog.TierOrder">
+        <String>default</String>
+        <String>Слова</String>
+        <String>Жесты</String>
+        <String>Референция</String>
+        <String>Упоминание</String>
+        <String>Форма руки</String>
+        <String>Комментарии и вопросы</String>
+        <String>Комм - юн</String>
+    </prefList>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
@@ -74,6 +87,13 @@
         </pref>
     </prefGroup>
     <prefGroup key="TierFonts"/>
+    <prefList key="ExportTabDialog.selectedTiers">
+        <String>Слова</String>
+        <String>Жесты</String>
+        <String>Референция</String>
+        <String>Упоминание</String>
+        <String>Форма руки</String>
+    </prefList>
     <prefList key="CommentViewer.Columns.Order">
         <String>Start Time</String>
         <String>End Time</String>
@@ -87,19 +107,19 @@
         <String>Modification Date</String>
     </prefList>
     <pref key="GridViewer.TierName">
-        <String>Слова</String>
+        <String>Комментарии и вопросы</String>
     </pref>
     <pref key="ActiveRecognizerName">
         <String>AAM-LR Phone level audio segmentation</String>
     </pref>
     <pref key="FrameLocation">
-        <Object class="java.awt.Point">0,25</Object>
+        <Object class="java.awt.Point">0,0</Object>
     </pref>
     <pref key="TimeLineViewer.ZoomLevel">
         <Float>149.99998</Float>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>603393</Long>
+        <Long>218713</Long>
     </pref>
     <pref key="DetachedEditor.Bounds">
         <Object class="java.awt.Rectangle">618,282,300,300</Object>
@@ -113,22 +133,25 @@
         <Boolean>true</Boolean>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>599133</Long>
+        <Long>231533</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>601953</Long>
+        <Long>235900</Long>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="Комм - юн">
-            <Object class="java.awt.Color">90,160,0</Object>
-        </pref>
         <pref key="default">
             <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="Комм - юн">
+            <Object class="java.awt.Color">90,160,0</Object>
         </pref>
         <pref key="Комментарии и вопросы">
             <Object class="java.awt.Color">90,90,0</Object>
         </pref>
         <pref key="Слова">
+            <Object class="java.awt.Color">160,90,90</Object>
+        </pref>
+        <pref key="Конкретность">
             <Object class="java.awt.Color">160,90,90</Object>
         </pref>
     </prefGroup>
@@ -139,6 +162,7 @@
         <String>Референция</String>
         <String>Упоминание</String>
         <String>Форма руки</String>
+        <String>Конкретность</String>
         <String>Комм - юн</String>
         <String>default</String>
     </prefList>
@@ -150,4 +174,9 @@
         <Boolean>true</Boolean>
     </pref>
     <prefList key="CommentViewer.Columns.Hidden"/>
+    <prefList key="ExportTabDialog.HiddenTiers">
+        <String>default</String>
+        <String>Комментарии и вопросы</String>
+        <String>Комм - юн</String>
+    </prefList>
 </preferences>
