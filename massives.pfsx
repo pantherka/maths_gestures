@@ -27,10 +27,10 @@
         <Boolean>true</Boolean>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>218720</Long>
+        <Long>815661</Long>
     </pref>
     <pref key="LayoutManager.MediaAreaHeight">
-        <Int>274</Int>
+        <Int>276</Int>
     </pref>
     <pref key="ExportTabDialog.SelectTiersMode">
         <String>Tier</String>
@@ -107,7 +107,7 @@
         <String>Modification Date</String>
     </prefList>
     <pref key="GridViewer.TierName">
-        <String>Комментарии и вопросы</String>
+        <String>Слова</String>
     </pref>
     <pref key="ActiveRecognizerName">
         <String>AAM-LR Phone level audio segmentation</String>
@@ -119,7 +119,7 @@
         <Float>149.99998</Float>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>218713</Long>
+        <Long>815661</Long>
     </pref>
     <pref key="DetachedEditor.Bounds">
         <Object class="java.awt.Rectangle">618,282,300,300</Object>
@@ -133,17 +133,17 @@
         <Boolean>true</Boolean>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>231533</Long>
+        <Long>812208</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>235900</Long>
+        <Long>815981</Long>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="default">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
         <pref key="Комм - юн">
             <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+        <pref key="default">
+            <Object class="java.awt.Color">90,0,160</Object>
         </pref>
         <pref key="Комментарии и вопросы">
             <Object class="java.awt.Color">90,90,0</Object>
